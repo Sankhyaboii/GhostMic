@@ -1,0 +1,17 @@
+# Audio capture, streaming, and I/O
+sounddevice>=0.4.6
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0
+
+# ONNX Runtime & Qualcomm Hexagon NPU execution
+onnxruntime>=1.18.0
+# Note: For Snapdragon NPU execution on Windows on ARM, install onnxruntime-qnn:
+# onnxruntime-qnn>=1.18.0
+
+# Signal processing & vocal feature manipulation
+librosa>=0.10.0
+torch>=2.2.0 --extra-index-url https://download.pytorch.org/whl/cpu
+
+# CLI, logging, and configuration
+pydantic>=2.5.0
+rich>=13.7.0
