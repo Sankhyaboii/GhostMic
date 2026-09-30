@@ -1,4 +1,4 @@
-GhostMic.
+  GhostMic.
 Real-Time, Zero-Leak Acoustic Cloaking & Isolation Engine for Snapdragon® HP PCs
 
 ## 1. Problem Statement
