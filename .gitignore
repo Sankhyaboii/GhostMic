@@ -1,0 +1,44 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Model weights & large binaries (keep repo lightweight)
+*.onnx
+*.bin
+*.pt
+*.pth
+*.tflite
+*.dlc
+*.raw
+
+# Audio test recordings / temporary dumps
+*.wav
+*.mp3
+*.flac
+*.pcm
+recordings/
+temp/
+
+# Logs & environment variables
+*.log
+.env
+.env.local
+
+# IDE & OS-specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
